@@ -137,7 +137,11 @@ label {
 
 	<div class="container">
 		<h2>Student Registration Form</h2>
+<<<<<<< HEAD
 		<form id="myForm" action="/vidhya/studentRegistrationRequest" method="post">
+=======
+		<form id="myForm" action="/studentRegistrationRequest" method="post">
+>>>>>>> vishvajeet_Jadoun
 			<div class="form-group">
 				<label for="studentName">Student Name:</label> <input type="text"
 					id="studentName"  name="studentName" required>
@@ -201,7 +205,11 @@ label {
 							<option name="studentRollNo" value="9th">9th</option>
 							<option name="studentRollNo" value="10th">10th</option>
 							<option name="studentRollNo" value="11th">11th</option>
+<<<<<<< HEAD
 							<option name="studentRollNo" value="12st">12st</option>
+=======
+							<option name="studentRollNo" value="12th">12th</option>
+>>>>>>> vishvajeet_Jadoun
 						</select>
 					</div>
 
@@ -215,8 +223,11 @@ label {
 						</div>
 					</div>
 					
+<<<<<<< HEAD
 					
 
+=======
+>>>>>>> vishvajeet_Jadoun
 					<div class="form-group input-wrapper" style="margin-left: 5%; margin-top: 3px">
 						<label for="studentDateOfBirth">Date of Birth:</label> <input
 							type="date" id="studentDateOfBirth" name="studentDateOfBirth"

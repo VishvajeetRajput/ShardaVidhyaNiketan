@@ -60,6 +60,27 @@
 						type="button" class="btn btn-outline-primary">
 						Click here to add student marks
 					</button></a>
+<<<<<<< HEAD
+=======
+					
+					 <select
+							 name="studentClass"  class="form-group custom-select" >
+							<option name="studentRollNo" value="kg1st">KG1st</option>
+							<option name="studentRollNo" value="KG2nd">KG2nd</option>
+							<option name="studentRollNo" value="1st">1st</option>
+							<option name="studentRollNo" value="2nd">2nd</option>
+							<option name="studentRollNo" value="3th">3th</option>
+							<option name="studentRollNo" value="4th">4th</option>
+							<option name="studentRollNo" value="5th">5th</option>
+							<option name="studentRollNo" value="6th">6th</option>
+							<option name="studentRollNo" value="7th">7th</option>
+							<option name="studentRollNo" value="8th">8th</option>
+							<option name="studentRollNo" value="9th">9th</option>
+							<option name="studentRollNo" value="10th">10th</option>
+							<option name="studentRollNo" value="11th">11th</option>
+							<option name="studentRollNo" value="12th">12th</option>
+						</select>
+>>>>>>> vishvajeet_Jadoun
 				</div>
 				<hr>
 				<div class="form-group">
@@ -80,11 +101,19 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	<!-- <footer class="footer">
         <div class="container4">
             <p>&copy; 2024 Vishvajeet Rajput. All rights reserved.</p>
         </div>
     </footer> -->
+=======
+	<footer class="footer">
+        <div class="container4">
+            <p>&copy; 2024 Vishvajeet Rajput. All rights reserved.</p>
+        </div>
+    </footer>
+>>>>>>> vishvajeet_Jadoun
 </body>
 
 <style>

@@ -68,12 +68,25 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
 	protected ResponseEntity<Object> handleMissingServletRequestParameter(
 			final MissingServletRequestParameterException ex, final HttpHeaders headers, final HttpStatus status,
 			final WebRequest request) {
+<<<<<<< HEAD
 		logger.info(ex.getClass().getName());
 		//
+=======
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 25218e3 (Security changes)
+		logger.info(ex.getClass().getName());
+		
+>>>>>>> vishvajeet_Jadoun
 		final String error = "Invalid " + ex.getParameterName();
 		BaseResponse baseResponse = new BaseResponse(HttpStatus.BAD_REQUEST, Arrays.asList(error),
 				ResponseMessage.FAILED);
 		return handleExceptionInternal(ex, baseResponse, headers, status, request);
 	}
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> vishvajeet_Jadoun

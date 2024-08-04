@@ -11,7 +11,11 @@ import com.sharda.request.SubjectMarksRequest;
 
 public interface StudentService {
 
+<<<<<<< HEAD
 	List<Students> getAllStudents(int merchantId);
+=======
+	List<Students> getAllStudents();
+>>>>>>> vishvajeet_Jadoun
 
 	Students getStudentById(Long id);
 

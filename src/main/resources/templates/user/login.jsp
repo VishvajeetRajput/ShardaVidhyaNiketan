@@ -94,8 +94,12 @@ button:hover{
 	<div class="main">  	
 	<center>
 			<div class="login">
+<<<<<<< HEAD
 			<div class="alert alert-danger" role="alert">Bad credentials</div>
 				<form id="myForm" th:action="@{v2/adminLogin}" method="post">
+=======
+					<form id="myForm" th:action="@{v2/adminLogin}" method="post">
+>>>>>>> vishvajeet_Jadoun
 					<label for="chk" aria-hidden="true" style="color:white;">Login</label>
 					<input type="email" id="email" name="email" placeholder="Email" required="">
 					<input type="password" id="password" name="pswd" placeholder="Password" required="">
@@ -134,11 +138,19 @@ button:hover{
             .then(response => response.json())
             .then(data => {
                 if (data.code==200) {
+<<<<<<< HEAD
                   //  document.getElementById("loder").style.display ='none';
                     //document.getElementById("message").innerText = data.description;
                     //document.getElementById("message").style.color = "Green";
                     //document.getElementById("submit").style.display ='block';
                 	//window.location.href =url;
+=======
+                   document.getElementById("loder").style.display ='none';
+                    document.getElementById("message").innerText = data.description;
+                    document.getElementById("message").style.color = "Green";
+                    document.getElementById("submit").style.display ='block';
+                	window.location.href =url;
+>>>>>>> vishvajeet_Jadoun
                 } else {
                     document.getElementById("loder").style.display ='none';
                     document.getElementById("message").innerText = data.description;

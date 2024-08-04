@@ -8,7 +8,11 @@
   <meta name="generator" content="Mobirise v5.9.13, a.mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <meta name="description" content="A cutting-edge school management system built with React JS, HTML, CSS, and JavaScript, providing seamless user experience and advanced functionality.">
+<<<<<<< HEAD
   <title>School Management System</title>
+=======
+  <title>Sharda Vidhya Niketan</title>
+>>>>>>> vishvajeet_Jadoun
  
  <!-- this is for star  --> <link rel="stylesheet" href="https://r.mobirisesite.com/477034/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1717065463772">
  
@@ -74,6 +78,7 @@
 	</nav>
 </section>
 
+<<<<<<< HEAD
 <section data-bs-version="5.1" class="header18 cid-uefn4rc2Ba mbr-fullscreen" data-bg-video="https://youtu.be/t85N61dIu3o?autoplay=1&amp;loop=1&amp;playlist=EkPKNMP17hA&amp;t=20&amp;mute=1&amp;playsinline=1&amp;controls=0&amp;showinfo=0&amp;autohide=1&amp;allowfullscreen=true&amp;mode=transparent" id="hero-16-uefn4rc2Ba"><div class="mbr-background-video-preview" style="display: block; background-size: cover; background-position: center center; background-image: url(&quot;https://img.youtube.com/vi/EkPKNMP17hA/maxresdefault.jpg&quot;);"></div><div style="overflow: hidden; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;"><div style="background: rgb(0, 0, 0); inset: 0px;"><div class="mbr-video-foreground" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; overflow: hidden;"><iframe class="mbr-background-video" id="ytplayer-45ebf9" style="margin-top: 0px; max-width: initial; transition-property: opacity; transition-duration: 1000ms; pointer-events: none; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; transform: scale(1.2);" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="SafeBus School Bus Management Platform: Features &amp; Benefits | Explainer Video" width="1366" height="769" src="https://www.youtube.com/embed/EkPKNMP17hA?autoplay=1&amp;mute=0&amp;controls=0&amp;enablejsapi=1&amp;allowfullscreen=true&amp;iv_load_policy=3&amp;modestbranding=1&amp;origin=https%3A%2F%2Fshardavidhyaniketan.mobirisesite.com&amp;rel=0&amp;mode=transparent&amp;showinfo=0&amp;html5=1&amp;version=3&amp;playerapiid=iframe_YTP_1624972482514&amp;widgetid=1"></iframe></div></div></div>
   
 
@@ -89,6 +94,14 @@
   </div>
 </section>
 
+=======
+<section data-bs-version="5.1" class="header18 cid-uefn4rc2Ba mbr-fullscreen" data-bg-video="https://youtu.be/vM0oyVkX4vw?autoplay=1&loop=1&playlist=EkPKNMP17hA&t=60&mute=0&playsinline=10&controls=0&showinfo=0&autohide=1&allowfullscreen=true&t=120" id="hero-16-uefn4rc2Ba"><div class="mbr-background-video-preview" style="display: block; background-size: cover; background-position: center center;"></div><div style="overflow: hidden; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;"><div style="background: rgb(0, 0, 0); inset: 0px;"><div class="mbr-video-foreground" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; overflow: hidden;">        
+</section>
+
+
+
+
+>>>>>>> vishvajeet_Jadoun
 <section data-bs-version="5.1" class="menu menu2 cid-uefn4rbZWV" once="menu" id="menu-5-uefn4rbZWV">
 
 
@@ -612,7 +625,11 @@
       </div>
 
       <div class="col-12 mt-4">
+<<<<<<< HEAD
         <p class="mbr-fonts-style copyright display-7">© 2024 School Project. All Rights Reserved.</p>
+=======
+        <p class="mbr-fonts-style copyright display-7">© 2024 Vishvajeet. All Rights Reserved.</p>
+>>>>>>> vishvajeet_Jadoun
       </div>
     </div>
     </div>

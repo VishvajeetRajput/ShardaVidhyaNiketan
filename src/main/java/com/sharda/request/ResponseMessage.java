@@ -19,6 +19,14 @@ public class ResponseMessage {
 	public final static String baseUrl= "http://localhost:8007/v2/";
 	public final static String baseUrlWithoutV2= "http://localhost:8007/";
 
+<<<<<<< HEAD
+=======
+
+//	public final static String baseUrl= "https://spring-mvc-production.up.railway.app/v2/";
+//	public final static String baseUrlWithoutProd= "https://spring-mvc-production.up.railway.app/";
+
+	
+>>>>>>> vishvajeet_Jadoun
 //	public final static String DESCRIPTION = "description";
 	
 

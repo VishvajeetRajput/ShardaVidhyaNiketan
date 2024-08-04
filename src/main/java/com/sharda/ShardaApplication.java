@@ -16,6 +16,19 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(basePackages = "com.sharda.repo")
 public class ShardaApplication  {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		SpringApplication.run(ShardaApplication.class, args);
 	}
 }
+=======
+		
+<<<<<<< HEAD
+=======
+		//hey this is test
+		
+>>>>>>> 25218e3 (Security changes)
+		SpringApplication.run(ShardaApplication.class, args);
+	
+	}
+}
+>>>>>>> vishvajeet_Jadoun

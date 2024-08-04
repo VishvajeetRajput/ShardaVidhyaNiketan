@@ -28,8 +28,13 @@ public class StudentController {
 	    private StudentService studentService;
 
 	    @GetMapping("/getallstudent")
+<<<<<<< HEAD
 	    public List<Students> getAllStudents(@RequestParam int merchantId) {
 	        return studentService.getAllStudents(merchantId);
+=======
+	    public List<Students> getAllStudents() {
+	        return studentService.getAllStudents();
+>>>>>>> vishvajeet_Jadoun
 	    }
 
 	    @GetMapping("getStudentById/{id}")
@@ -52,4 +57,8 @@ public class StudentController {
 	        return studentService.adminLogin(LoginRequest);
 	    }
 	
+<<<<<<< HEAD
 }
+=======
+}	
+>>>>>>> vishvajeet_Jadoun

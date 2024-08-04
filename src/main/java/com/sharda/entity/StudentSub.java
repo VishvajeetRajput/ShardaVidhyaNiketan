@@ -10,7 +10,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "SUBJECTS")
 public class StudentSub {
+<<<<<<< HEAD
 
+=======
+>>>>>>> vishvajeet_Jadoun
 	
 	@Id
 	@Column(name = "SUBJECTID")

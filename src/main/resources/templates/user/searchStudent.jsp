@@ -167,7 +167,11 @@
 </style>
 
 <script th:inline="javascript">
+<<<<<<< HEAD
 var txnid = [[${url}]];
+=======
+var url = [[${url}]];
+>>>>>>> vishvajeet_Jadoun
 function getrollnumber(){
 
 let getRollNumber=document.getElementById("studentRollNo").value;
@@ -177,7 +181,11 @@ if (getRollNumber==null || getRollNumber==""){
 } else {
 	document.getElementById("error").innerHTML="";
 	
+<<<<<<< HEAD
 	window.location.href = txnid+"?getRollNumber="+getRollNumber;
+=======
+	window.location.href = url+"?getRollNumber="+getRollNumber;
+>>>>>>> vishvajeet_Jadoun
 	
 }
 

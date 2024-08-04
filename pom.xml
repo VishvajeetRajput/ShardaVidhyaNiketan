@@ -29,10 +29,18 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			
 		</dependency>
+<<<<<<< HEAD
+=======
+		
+>>>>>>> vishvajeet_Jadoun
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency> 
+<<<<<<< HEAD
+=======
+		
+>>>>>>> vishvajeet_Jadoun
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
@@ -138,11 +146,19 @@
 			<version>1.5.5</version>
 		</dependency>
 		<!--  Spring Data Elasticsearch  -->
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
 		</dependency>
 		<!--  Elasticsearch Java High-Level REST Client  -->
+=======
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+		</dependency>
+		  Elasticsearch Java High-Level REST Client  
+>>>>>>> vishvajeet_Jadoun
 		<dependency>
 			<groupId>org.elasticsearch.client</groupId>
 			<artifactId>elasticsearch-rest-high-level-client</artifactId>
@@ -151,7 +167,11 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-elasticsearch</artifactId>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+-->
+>>>>>>> vishvajeet_Jadoun
 		<dependency>
 			<groupId>org.hashids</groupId>
 			<artifactId>hashids</artifactId>
@@ -164,11 +184,19 @@
 			<scope>provided</scope>
 		</dependency>
 		
+<<<<<<< HEAD
 		<!--<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
 		</dependency>
 -->
+=======
+	<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+		</dependency>
+
+>>>>>>> vishvajeet_Jadoun
 	</dependencies>
 
 	<build>

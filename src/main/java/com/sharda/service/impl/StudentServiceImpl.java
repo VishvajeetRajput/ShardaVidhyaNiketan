@@ -2,6 +2,10 @@ package com.sharda.service.impl;
 
 import java.sql.Timestamp;
 import java.util.HashMap;
+<<<<<<< HEAD
+=======
+import java.util.HashSet;
+>>>>>>> vishvajeet_Jadoun
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -43,14 +47,109 @@ public class StudentServiceImpl implements StudentService {
 	private AdminRepository adminRepository;
 
 	@Override
+<<<<<<< HEAD
 	public List<Students> getAllStudents(int merchantId) {
+=======
+	public List<Students> getAllStudents() {
+
+>>>>>>> vishvajeet_Jadoun
 		return repository.findAll();
 	}
 
 	@Override
 	public Students getStudentById(Long id) {
+<<<<<<< HEAD
 		
 			return null;
+=======
+
+		Map<String, String> map = new HashMap<>();
+		
+		try {
+			
+			
+			
+			OkHttpClient client = new OkHttpClient().newBuilder()
+					  .build();
+					MediaType mediaType = MediaType.parse("text/plain");
+					RequestBody body = RequestBody.create(mediaType, "");
+					Request request = new Request.Builder()
+					  .url("https://api.fidypay.com/admin/merchantServiceCharge/getChargeListByMerchantServiceId?merchantServiceId="+id)
+					  .method("GET", null)
+					  .addHeader("accept", "application/json, text/plain, */*")
+					  .addHeader("accept-language", "en-US,en;q=0.9")
+					  .addHeader("origin", "https://admin.fidypay.com")
+					  .addHeader("priority", "u=1, i")
+					  .addHeader("referer", "https://admin.fidypay.com/")
+					  .addHeader("sec-ch-ua", "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"")
+					  .addHeader("sec-ch-ua-mobile", "?0")
+					  .addHeader("sec-ch-ua-platform", "\"Windows\"")
+					  .addHeader("sec-fetch-dest", "empty")
+					  .addHeader("sec-fetch-mode", "cors")
+					  .addHeader("sec-fetch-site", "same-site")
+					  .addHeader("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+					  .addHeader("x-client-id", "tiFANIMp/fxEy8GNKHyCAg==")
+					  .addHeader("x-client-secret", "NRmIJMChRiJIYN8onwn2i6kuuXz6+GsABAf2YXWIFX5Ly4KzBEmQxmPYPay57KEy")
+					  .build();
+					Response response = client.newCall(request).execute();
+
+					
+					ResponseBody responseBody = response.body();
+					String ss = responseBody.string();
+										JSONObject jsonObject = new JSONObject(ss);
+					
+					if (jsonObject.getString("code").equalsIgnoreCase("0x0202")) {
+						
+						System.out.println(id);
+						
+					} else {
+
+					}
+					
+//		
+//			OkHttpClient client = new OkHttpClient().newBuilder().build();
+//			MediaType mediaType = MediaType.parse("application/json");
+//			RequestBody body = RequestBody.create(mediaType, "");
+//			Request request = new Request.Builder()
+//					.url("https://api.fidypay.com/admin/merchantService/merchantServiceListByMerchantId?merchantId="
+//							+ id)
+//					.method("POST", body).addHeader("accept", "*/*").addHeader("content-type", "application/json")
+//					.addHeader("x-client-id", "tiFANIMp/fxEy8GNKHyCAg==")
+//					.addHeader("x-client-secret", "NRmIJMChRiJIYN8onwn2i6kuuXz6+GsABAf2YXWIFX5Ly4KzBEmQxmPYPay57KEy")
+//					.build();
+//			Response response = client.newCall(request).execute();
+//			ResponseBody responseBody = response.body();
+//			String ss = responseBody.string();
+//			JSONObject jsonObject = new JSONObject(ss);
+//			JSONArray merchantServiceList = jsonObject.getJSONArray("merchantServiceList");
+// 			
+//			
+//			for (int i = 0; i < merchantServiceList.length(); i++) {
+//
+//				JSONObject merchantService = merchantServiceList.getJSONObject(i);
+//
+//				int merchantServiceId = merchantService.getInt("merchantServiceId");
+//
+//				if (merchantService.getString("serviceName").equalsIgnoreCase("ESIGN REJECTED")) {
+//					
+//					System.out.println(merchantServiceId);
+//					
+//				}else {
+//
+//				}
+				
+
+			
+//			}
+
+		}
+
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return null;
+>>>>>>> vishvajeet_Jadoun
 	}
 
 	@Override
@@ -173,14 +272,23 @@ public class StudentServiceImpl implements StudentService {
 	@Override
 	public Map<String, Object> adminLogin(Login loginRequest) {
 
+<<<<<<< HEAD
 		Map<String, Object> response = (adminRepository.existsByAdminEmail(loginRequest.getEmail()))
+=======
+		return (adminRepository.existsByAdminEmail(loginRequest.getEmail()))
+>>>>>>> vishvajeet_Jadoun
 				? adminRepository.existsByPassword(loginRequest.getPassword())
 						? Map.of(ResponseMessage.CODE, ResponseMessage.SUCCESS, ResponseMessage.DESCRIPTION,
 								"Login successful")
 						: Map.of(ResponseMessage.CODE, ResponseMessage.FAILED, ResponseMessage.DESCRIPTION,
 								"Invalid Password")
 				: Map.of(ResponseMessage.CODE, ResponseMessage.FAILED, ResponseMessage.DESCRIPTION, "Invalid Email");
+<<<<<<< HEAD
 
 		return response;
 	}
+=======
+	}
+
+>>>>>>> vishvajeet_Jadoun
 }

@@ -38,6 +38,7 @@
 			style="display: flex; justify-content: space-evenly; align-items: center; padding: 5Px;">
 
 			<div class="section_wrapper_right"
+<<<<<<< HEAD
 				style="height: 100%; margin: 16px; padding: 10px 30px; display: flex; justify-content: space-between; flex-direction: column; box-shadow: 0 15px 15px rgb(0 0 0/ 0.2); border-radius: 8px;">
 				<div style="margin-top: 2px"></div>
 
@@ -45,6 +46,14 @@
 
 					<div class="containerio" id="11thMath">
 						<img id="image" src="Images/Marksheet.jpg" alt="Snow"> <a
+=======
+				style="padding: 10px 30px; display: flex; justify-content: space-between; flex-direction: column; box-shadow: 0 15px 15px rgb(0 0 0/ 0.2); border-radius: 8px;">
+				
+				<center>
+
+					<div class="containerio" id="11thMath">
+						<img style="height: 10%; width: 50%;" id="image" src="Images/MarksheetUp1.jpg" alt="Snow"> <a
+>>>>>>> vishvajeet_Jadoun
 							id="downloadLink" download="Marked_Marksheet.jpg" href="#"
 							style="display: block;">Download Marksheet</a>
 						<div class="text studentName" id="studentName"></div>
@@ -72,6 +81,7 @@
 							style="display: block; text-decoration: none;">Download Marksheet</a>
 						<div class="text top-left" id="studentName"></div>
 					</div>
+<<<<<<< HEAD
 
 					
 					<div></div>
@@ -85,6 +95,20 @@
             <p>&copy; 2024 Vishvajeet Rajput. All rights reserved.</p>
         </div>
     </footer> -->
+=======
+					
+</center>
+
+					
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+        <div class="container4">
+            <p>&copy; 2024 Vishvajeet Rajput. All rights reserved.</p>
+        </div>
+    </footer>
+>>>>>>> vishvajeet_Jadoun
 </body>
 
 <style>
@@ -96,7 +120,15 @@
 .text {
 	position: absolute;
 	/* Text color */
+<<<<<<< HEAD
 	font-size: 13px; /* Adjust font size as needed */
+=======
+	font-size: 11px; /* Adjust font size as needed */
+		color: rgb(0, 112, 192);
+		font-weight: bold;
+	
+	
+>>>>>>> vishvajeet_Jadoun
 }
 
 .bottom-left {
@@ -107,29 +139,41 @@
 .studentName {
 	top: 235px;
 	left: 162px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .fatherName {
 	top: 282px;
 	left: 419px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .motherName {
 	top: 276px;
 	left: 111px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 .dateOfBirth{
     top: 320px;
     left: 223px;
+<<<<<<< HEAD
 
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 
@@ -137,13 +181,17 @@
 	top: 189px;
 	
 	left: 290px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .studentRollNo {
 	top: 192px;
 	left: 494px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
 }
@@ -159,42 +207,67 @@
 	top: 591px; left : 434px;
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+}
+
+.physics {
+	left: 435px;
+} 
+
+.chemistry {
+	top: 591px; left : 434px;
+>>>>>>> vishvajeet_Jadoun
 	left: 434px;
 }
 
 .biology {
 	top: 626px;
     left: 437px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .mathematic {
 	    top: 664px;
     left: 434px;
+<<<<<<< HEAD
 		font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .totalMarks {
 	     top: 691px;
     left: 434px;
+<<<<<<< HEAD
 		font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .english {
 	top: 516px;
 	left: 435px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .hindi {
 	top: 480px;
 	left: 435px;
+<<<<<<< HEAD
 	font-weight: bold;
 	color: RGB(44, 51, 96);
+=======
+>>>>>>> vishvajeet_Jadoun
 }
 
 .top-right {
@@ -206,20 +279,37 @@
 	bottom: 0;
 	right: 0;
 }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> vishvajeet_Jadoun
 .centered {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD
 </style>
 
 <script th:inline="javascript">
+=======
+
+</style>
+
+<script th:inline="javascript">
+ 
+let studentRollNo=[[${studentRollNo}]];
+>>>>>>> vishvajeet_Jadoun
 let name=[[${studentName}]];
 let fatherName=[[${fatherName}]];
 let motherName=[[${motherName}]];
 let scholarNo=[[${scholarNo}]];
+<<<<<<< HEAD
 let studentRollNo=[[${studentRollNo}]];
+=======
+
+>>>>>>> vishvajeet_Jadoun
 let physics=[[${physics}]];
 let chemistry=[[${chemistry}]];
 let biology=[[${biology}]];
@@ -243,6 +333,7 @@ document.getElementById("english").innerHTML=english;
 document.getElementById("hindi").innerHTML=hindi;
 document.getElementById("totalMarks").innerHTML=totalMarks;
 document.getElementById("dateOfBirth").innerHTML=dateOfBirth;
+<<<<<<< HEAD
 
 	
 	   document.getElementById("downloadLink").addEventListener("click", function() {
@@ -275,3 +366,57 @@ document.getElementById("dateOfBirth").innerHTML=dateOfBirth;
 	
 </script>
 </html>
+=======
+	
+document.getElementById("downloadLink").addEventListener("click", function() {
+    var image = document.getElementById("image");
+
+    var canvas = document.createElement("canvas");
+    var context = canvas.getContext("2d");
+
+    // Ensure the image is fully loaded before drawing it
+    if (image.complete) {
+        drawCanvas();
+    } else {
+        image.onload = drawCanvas;
+    }
+
+    function drawCanvas() {
+        // Set canvas dimensions to match the natural image dimensions
+        canvas.width = image.naturalWidth;
+        canvas.height = image.naturalHeight;
+
+        // Draw the image on the canvas
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+        // Draw text on the canvas
+        context.font = "40px Arial"; // Adjust font size and style as needed
+        context.fillStyle = "rgb(0, 112, 192)"; // Using an RGB color value
+        context.fillText(dateOfBirth, 645, 1540);
+        context.fillText(dateOfBirth, 770, 1650);
+
+        context.fillText(studentRollNo, 1950, 930);
+        context.fillText(name, 600, 1220); 
+        context.fillText(fatherName, 450, 1420);
+        context.fillText(motherName, 720, 1320);
+        context.fillText(scholarNo, 820, 930);
+        context.fillText(hindi, 1370, 2280);
+        context.fillText(english, 1370, 2360);        
+        context.fillText(physics, 1370, 2440);
+        context.fillText(chemistry, 1370, 2520);
+        context.fillText(biology, 1370, 2600);
+        context.fillText(mathematic, 1370, 2680);
+      /*   
+        context.fillText(totalMarks, 1370, 2520);
+         */
+        var downloadLink = document.getElementById("downloadLink");
+        downloadLink.href = canvas.toDataURL("image/jpeg");
+
+        downloadLink.click();
+    }
+});
+
+</script>
+
+</html>
+>>>>>>> vishvajeet_Jadoun

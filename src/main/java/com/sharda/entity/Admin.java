@@ -16,7 +16,15 @@ import lombok.ToString;
 
 @Entity
 @Data
+<<<<<<< HEAD
 @Table(name = "Admin")
+=======
+<<<<<<< HEAD
+@Table(name = "Admin")
+=======
+@Table(name = "ADMIN")
+>>>>>>> 25218e3 (Security changes)
+>>>>>>> vishvajeet_Jadoun
 public class Admin {
 	
 	@Id
