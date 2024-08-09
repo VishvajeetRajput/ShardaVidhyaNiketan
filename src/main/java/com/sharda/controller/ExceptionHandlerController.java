@@ -68,10 +68,10 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
 	protected ResponseEntity<Object> handleMissingServletRequestParameter(
 			final MissingServletRequestParameterException ex, final HttpHeaders headers, final HttpStatus status,
 			final WebRequest request) {
-<<<<<<< HEAD
-=======
+
+
 		
->>>>>>> 25218e3 (Security changes)
+
 		logger.info(ex.getClass().getName());
 		
 		final String error = "Invalid " + ex.getParameterName();

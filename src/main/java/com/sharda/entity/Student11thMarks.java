@@ -18,15 +18,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-<<<<<<< HEAD
+
 @Table(name = "STUDENT_11TH_MARKS")
 public class Student11thMarks {
-=======
-@Table(name = "student_11th_marks")
-public class Student11thMarks {
-	
-	
->>>>>>> 25218e3 (Security changes)
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;

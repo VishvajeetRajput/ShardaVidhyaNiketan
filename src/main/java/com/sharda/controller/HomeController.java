@@ -61,7 +61,7 @@ public class HomeController {
 		return model;
 	}
 
-	@RequestMapping(method = RequestMethod.GET, value = "AdminLogin")
+	@RequestMapping(method = RequestMethod.GET, value = "/AdminLogin")
 	public ModelAndView adminLogin() {
 
 		ModelAndView model = new ModelAndView();
@@ -440,8 +440,6 @@ public class HomeController {
 	}
 
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -452,4 +450,6 @@ public class HomeController {
 
 
 
->>>>>>> 25218e3 (Security changes)
+
+
+
