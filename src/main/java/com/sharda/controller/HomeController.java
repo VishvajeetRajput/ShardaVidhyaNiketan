@@ -36,18 +36,20 @@ import com.sharda.service.StudentService;
 @Controller
 public class HomeController {
 
-	@Autowired
 	private StudentService studentService;
-	
-	@Autowired
 	private StudentsRepository repository;
-	
-	@Autowired
 	private Student11thService student11thService;
-
-	@Autowired
 	private Student9thService student9thService;
 	
+
+	
+	public HomeController(StudentService studentService, StudentsRepository repository,
+			Student11thService student11thService, Student9thService student9thService) {
+		this.studentService = studentService;
+		this.repository = repository;
+		this.student11thService = student11thService;
+		this.student9thService = student9thService;
+	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "")
 	public ModelAndView paymentLink() {

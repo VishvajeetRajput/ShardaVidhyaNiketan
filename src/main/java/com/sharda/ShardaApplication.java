@@ -9,7 +9,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableJpaAuditing
-@EnableScheduling 
 @Configuration
 @EnableJpaRepositories(basePackages = "com.sharda.repo")
 public class ShardaApplication  {
