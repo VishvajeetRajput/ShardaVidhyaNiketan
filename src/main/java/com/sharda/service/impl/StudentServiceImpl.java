@@ -182,11 +182,9 @@ public class StudentServiceImpl implements StudentService {
 
 		return (adminRepository.existsByAdminEmail(loginRequest.getEmail()))
 				? adminRepository.existsByPassword(loginRequest.getPassword())
-						? Map.of(ResponseMessage.CODE, ResponseMessage.SUCCESS, ResponseMessage.DESCRIPTION,
-								"Login successful")
-						: Map.of(ResponseMessage.CODE, ResponseMessage.FAILED, ResponseMessage.DESCRIPTION,
-								"Invalid Password")
-				: Map.of(ResponseMessage.CODE, ResponseMessage.FAILED, ResponseMessage.DESCRIPTION, "Invalid Email");
+						? 	seterrorResponse(new HashMap<String,Object>(),ResponseMessage.SUCCESS, "Login successful")
+						: seterrorResponse(new HashMap<String,Object>(),ResponseMessage.FAILED, "Invalid Password")
+				:  seterrorResponse(new HashMap<String,Object>(),ResponseMessage.FAILED, "Invalid Email");
 	}
 
 	@Override
@@ -215,4 +213,11 @@ public class StudentServiceImpl implements StudentService {
 		
 	}
 
+	
+	public Map<String ,Object> seterrorResponse(Map<String,Object> map,String code,String des ){
+		map.put("code", code);	
+		map.put("description", des);	
+		return map;
+		}
+	
 }
