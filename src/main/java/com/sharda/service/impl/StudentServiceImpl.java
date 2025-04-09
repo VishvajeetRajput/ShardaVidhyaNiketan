@@ -190,7 +190,12 @@ public class StudentServiceImpl implements StudentService {
 	@Override
 	public void updateStudent(StudentsRequest stu) {
 
-		Students students = repository.findByStudentRollNo(stu.getStudentRollNo());
+		System.out.println(stu.toString());
+
+		long stdId=Long.valueOf(stu.getStudentId());
+		Students students = repository.findById(stdId).get();
+		System.out.println(students.toString());
+		
 		students.setStudentName(stu.getStudentName());
 		students.setStudentGender(stu.getStudentGender());
 		students.setStudentRollNo(stu.getStudentRollNo());

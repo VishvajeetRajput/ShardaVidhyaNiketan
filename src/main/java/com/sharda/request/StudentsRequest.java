@@ -66,6 +66,16 @@ public class StudentsRequest {
 	@Pattern(regexp = "^[a-zA-Z0-9 ]+$", message = "Inavalid studentScholarNo")
 	private String studentScholarNo;
 
+	private String studentId;
+	
+	public String getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(String studentId) {
+		this.studentId = studentId;
+	}
+
 	public String getStudentName() {
 		return studentName;
 	}
@@ -164,5 +174,17 @@ public class StudentsRequest {
 
 	public StudentsRequest() {
 	}
+
+	@Override
+	public String toString() {
+		return "StudentsRequest [studentName=" + studentName + ", studentGender=" + studentGender + ", studentRollNo="
+				+ studentRollNo + ", studentClass=" + studentClass + ", studentDateOfBirth=" + studentDateOfBirth
+				+ ", studentEmailOrFatherEmail=" + studentEmailOrFatherEmail + ", studentMobileNoOrFatherMobileNo="
+				+ studentMobileNoOrFatherMobileNo + ", studentFatherName=" + studentFatherName + ", studentMotherName="
+				+ studentMotherName + ", studentAddress1=" + studentAddress1 + ", studentAddress2=" + studentAddress2
+				+ ", studentScholarNo=" + studentScholarNo + ", studentId=" + studentId + "]";
+	}
+
+	
 
 }

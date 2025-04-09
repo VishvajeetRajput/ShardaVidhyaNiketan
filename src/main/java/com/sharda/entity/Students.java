@@ -179,6 +179,17 @@ public class Students {
 	public void setStudentRegistrationDate(Timestamp studentRegistrationDate) {
 		this.studentRegistrationDate = studentRegistrationDate;
 	}
+
+	@Override
+	public String toString() {
+		return "Students [studentId=" + studentId + ", studentName=" + studentName + ", studentGender=" + studentGender
+				+ ", studentRollNo=" + studentRollNo + ", studentClass=" + studentClass + ", studentDateOfBirth="
+				+ studentDateOfBirth + ", studentEmailOrFatherEmail=" + studentEmailOrFatherEmail
+				+ ", studentMobileNoOrFatherMobileNo=" + studentMobileNoOrFatherMobileNo + ", studentFatherName="
+				+ studentFatherName + ", studentMotherName=" + studentMotherName + ", studentScholarNo="
+				+ studentScholarNo + ", studentAddress1=" + studentAddress1 + ", studentAddress2=" + studentAddress2
+				+ ", studentRegistrationDate=" + studentRegistrationDate + "]";
+	}
 	
 	
 	

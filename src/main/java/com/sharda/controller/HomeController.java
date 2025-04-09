@@ -393,6 +393,7 @@ public class HomeController {
 	public String studentRegistrationUpdate(StudentsRequest studentsRequest, Model model) {
 
 		try {
+			
 
 			studentService.updateStudent(studentsRequest);
 			return "redirect:/viewStudentDetails?className="+studentsRequest.getStudentClass();
